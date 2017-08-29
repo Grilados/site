@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './css/Header.css';
 import {Navbar, Button} from 'react-bootstrap';
+import {MenuHeader} from './Menus';
 
 export default class Header extends Component {
 
@@ -17,28 +18,11 @@ export default class Header extends Component {
         )
     }
 
-    renderMenu() {
-        if (!this.props.menu) return console.error('Os itens não foram encontrados!');
-        return(
-            <div>
-            {
-                this.props.menu.map((item, index)=>
-                    <div key={index} className={
-                        `menu ${this.props.active === index ? 'menu-active' : ''}`
-                    }>
-                        <a>{item}</a>
-                    </div>
-                )
-            }
-            </div>
-        )
-    }
-
     render() {
         return(
             <Navbar className="header">
                 {this.renderLogo()}
-                {this.renderMenu()}
+                <div><MenuHeader active={this.props.active} menu={this.props.menu}/></div>
                 <div  className="button">
                     <Button className="button-default" bsStyle="success">
                         Logar

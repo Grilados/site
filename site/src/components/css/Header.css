@@ -1,19 +1,5 @@
-/*Globais*/
-a {
-    color: #000000;
-    font-size: 17px;
-    font-weight: 500;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom-color: #000000;
-    border: #000000;
-}
 
-a:hover {
-    color: #000000;
-    text-decoration: none;
-}
-
+/*Elementos*/
 .logo {
     float: left;
     padding-top: 17px;
@@ -28,21 +14,6 @@ a:hover {
     -webkit-box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
     -moz-box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
     box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
-}
-
-.menu {
-    float: left;
-    cursor: pointer;
-    padding-top: 28px;
-    height: 80px;
-}
-
-.menu:hover {
-    border-bottom: solid 5px #009C47;
-}
-
-.menu-active {
-   border-bottom: solid 5px #009C47; 
 }
 
 .button {
@@ -60,5 +31,3 @@ a:hover {
 .button-default-icon {
     padding-left: 5px;
 }
-
-
