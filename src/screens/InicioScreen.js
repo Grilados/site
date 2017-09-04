@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../components/Header';
 import {MenuSimples} from '../components/Menus';
+import {CardNoticias} from '../components/Cards';
 
 const MENU_HEADER = [
   'Início',
@@ -24,10 +25,18 @@ export default class InicioScreen extends Component {
         return(
             <div>
                 <div>
-                    <Header active={0} menu={MENU_HEADER}/>
+                    <Header active={0} menu={MENU_HEADER} />
                 </div>
                 <div className="container">
-                    <MenuSimples menu={MENU_HOME}/>
+                    <div className="col-md-12">
+                        <MenuSimples menu={MENU_HOME} />
+                    </div>
+                    <div className="col-md-8">
+                         <CardNoticias /> 
+                    </div>
+                    <div className="col-md-4">
+                        MenuLateral
+                    </div>
                 </div> {/*Fim container*/}
             </div>
         )

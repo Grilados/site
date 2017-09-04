@@ -1,0 +1,14 @@
+/*CardNoticias*/
+.card {
+    width: 300px;
+}
+
+.card-img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.card-type {
+    color: red;
+    font-weight: bold;
+}
