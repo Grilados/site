@@ -32,7 +32,7 @@ export default class InicioScreen extends Component {
                         <MenuSimples menu={MENU_HOME} />
                     </div>
                     <div className="col-md-8">
-                         <CardNoticias /> 
+                         <CardNoticias autor={true} />
                     </div>
                     <div className="col-md-4">
                         MenuLateral

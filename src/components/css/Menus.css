@@ -1,4 +1,6 @@
-/*MenuHeader*/
+/*=========================================
+MenuHeader
+===========================================*/
 .menu-header a {
     color: #000000;
     font-size: 17px;
@@ -29,13 +31,14 @@
    border-bottom: solid 5px #009C47; 
 }
 
-/*MenuSimples*/
+/*=========================================
+MenuSimples
+===========================================*/
 .menu-simples a {
     color: #6D6D6D;
     font-size: 17px;
     font-weight: 500;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     border-bottom-color: #6D6D6D;
     border: #6D6D6D;
 }

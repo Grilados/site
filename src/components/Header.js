@@ -21,13 +21,15 @@ export default class Header extends Component {
     render() {
         return(
             <Navbar className="header">
-                {this.renderLogo()}
-                <div><MenuHeader active={this.props.active} menu={this.props.menu}/></div>
-                <div  className="button">
-                    <Button className="button-default" bsStyle="success">
-                        Logar
-                        <i className="fa fa-long-arrow-right button-default-icon" aria-hidden="true"></i> 
-                    </Button>
+                <div className="container">
+                    {this.renderLogo()}
+                    <div><MenuHeader active={this.props.active} menu={this.props.menu}/></div>
+                    <div  className="button">
+                        <Button className="button-default" bsStyle="success">
+                            Logar
+                            <i className="fa fa-long-arrow-right button-default-icon" aria-hidden="true"></i> 
+                        </Button>
+                    </div>
                 </div>
             </Navbar>
         )

@@ -1,14 +1,37 @@
-/*CardNoticias*/
+/*=========================================
+CardNoticias
+===========================================*/
 .card {
     width: 300px;
+    float: left;
 }
 
 .card-img {
     width: 300px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .card-type {
+    margin-top: 10px;
+    font-size: 15px;
     color: red;
+    font-weight: bold;
+}
+
+/*Autor*/
+.autor {
+    padding-top: 10px;
+    border-top: 1px solid #E2E2E2;
+}
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+.autor-titulo {
+    color: #009D47;
+    font-size: 15px;
     font-weight: bold;
 }
