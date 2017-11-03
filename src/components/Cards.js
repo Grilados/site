@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './css/Cards.css';
 
 export class CardNoticias extends Component {
@@ -7,7 +7,7 @@ export class CardNoticias extends Component {
             return(
                 <div className="autor">
                     <img className="rounded-circle" src={require("../imgs/noticias/autores/autor-1.png")} />
-                    <div class="d-flex flex-wrap">
+                    <div className="d-flex flex-wrap">
                         <div className="autor-titulo">Vitor Alves</div>
                         <div className="data-publicacao">22 Ago 2017</div>
                     </div>    

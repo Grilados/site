@@ -9,6 +9,9 @@ CardNoticias
 .card-img {
     width: 300px;
     border-radius: 3px;
+    -webkit-box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
+    -moz-box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
+    box-shadow: -1px 4px 43px -6px rgba(0,0,0,0.12);
 }
 
 .card-type {

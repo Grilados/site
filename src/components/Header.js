@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './css/Header.css';
-import {Navbar, Button} from 'react-bootstrap';
-import {MenuHeader} from './Menus';
+import { Navbar, Button } from 'react-bootstrap';
+import { MenuHeader } from './Menus';
 
 export default class Header extends Component {
 

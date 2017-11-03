@@ -1,0 +1,19 @@
+/*=========================================
+Alert
+===========================================*/
+.alert {
+    width: 100%;
+    min-height: 150px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.body {
+    font-size: 20px; 
+}
